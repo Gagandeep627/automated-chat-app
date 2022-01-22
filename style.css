@@ -39,17 +39,21 @@ header.nav-fixed {
   animation: spin 2s linear infinite;
   width: 30px;
   height: 30px;
-
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .content-a {
   font-family: cursive;
   height: 156px;
+  /* margin-top: 40px; */
 
   background: #e3e0e0;
   /* width: 70%; */
@@ -58,6 +62,7 @@ header.nav-fixed {
   width: 500px;
   /* height: 500px; */
   margin: auto;
+  margin-top: 40px;
   /* line-height: 10px; */
   max-height: -webkit-fill-available;
   /* height: 96px; */
@@ -66,7 +71,38 @@ header.nav-fixed {
 .hide {
   display: none;
 }
+#hide {
+  display: none;
+}
 
 .content-response {
   text-align: end;
+}
+
+.getaway {
+  text-align: end;
+}
+
+.loader-main {
+  text-align: left;
+  width: 32%;
+  margin: auto;
+  /* line-height: inherit; */
+  background: #e0c1c1;
+  /* padding-right: 12px; */
+  /* margin-left: 6px; */
+  /* margin-right: 1px;*/
+}
+
+.server-left {
+  display: flex;
+  position: sticky;
+  border: 2px solid whitesmoke;
+  border-width: 40%;
+  width: 8%;
+  margin: auto;
+  border-radius: 10rem;
+  padding-left: 7px;
+  background: #e3e0e0;
+  border-bottom-width: thick;
 }
